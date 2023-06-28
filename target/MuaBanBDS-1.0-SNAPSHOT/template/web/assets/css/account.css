@@ -1,0 +1,129 @@
+.header-user {
+    display: block;
+    background-color: #f2f2f2;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 75px;
+    margin-left: auto;
+}
+.sidebar-menu .user-profile{
+    display: flex;
+    font-weight: bold;
+}
+.user-profile {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.user-avatar > div {
+    height: 80px;
+    width: 80px;
+    background-image: url("https://i.pinimg.com/750x/41/0b/a0/410ba00d86532bd9f7baa72ab6fa1dd9.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.image > div {
+    height: 150px;
+    width: 150px;
+    background-image: url("https://i.pinimg.com/750x/41/0b/a0/410ba00d86532bd9f7baa72ab6fa1dd9.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.user-avatar{
+    margin-right: 10%;
+}
+.user-profile__header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.user-profile__welcome {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.user-profile__welcome .image {
+    margin-right: 10px;
+}
+
+.user-profile__welcome .text {
+    font-size: 16px;
+    font-weight: inherit;
+}
+
+.user-change {
+    margin-bottom: 10px;
+}
+
+.user-change label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.text div{
+    font-size: 16px;
+    margin-bottom: 5px ;
+    margin-top: 3px;
+}
+.account-newemail,
+.account-newpassword,
+.account-confirm,
+.account-newphone {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.user-change .account-newphone,.user-change .account-newpassword{
+    margin-bottom: 0px;
+}
+.user-info__username{
+    font-size: 16px;
+}
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+.list-user {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-user__item {
+    padding: 10px;
+    margin: 15px;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-user__item a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 16px;
+    margin-left: 10%;
+}
+
+.list-user__item a:hover {
+    color: var(--primary-color);
+}
+b{
+    color: red;
+}

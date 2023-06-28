@@ -1,0 +1,86 @@
+.col-inner-dn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(74, 74, 74, 0.12);
+
+    width: 75%;
+}
+
+/* Style the section title */
+.section-title-main {
+    color: rgb(0, 95, 42);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Style the input fields */
+.dn-form-line {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.dn-form-line input[type="text"],
+.dn-form-line input[type="password"] {
+    width: 300px;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.dn-input-remember {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.dn-label-remember {
+    font-size: 14px;
+}
+
+/* Style the submit button */
+.dn-submit input[type="submit"] {
+    width: 70%;
+    padding: 10px;
+    background-color: #009f4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style the links */
+.impu-form-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.impu-form-links a {
+    color: #009f4d;
+    font-size: 14px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.dn-form-line.dn-submit{
+    text-align: center;
+}
+.dn-remember {
+    text-align: right;
+    margin-bottom: 20px;
+}
+.ihc-login-form-wrap.ihc-login-template-8{
+    margin-bottom: 20px;
+}
+.iump-form-line-register.iump-form-text{
+    margin: 10px;
+}
+@media (max-width: 1023px) {
+    .col-inner-dn {
+        width: 100%;
+    }
+}
